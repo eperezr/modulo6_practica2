@@ -2,9 +2,7 @@
   <Menu>
     <router-link to="/">Home</router-link>
     <router-link to="/about">About</router-link>
-    <router-link to="/cliente" v-if="canSee(['admin','secretaria','veterinario'])">Clientes</router-link>
-    <router-link to="/mascota" v-if="canSee(['admin','veterinario'])">Mascotas</router-link>
-    <router-link to="/cita" v-if="canSee(['admin','secretaria'])">Citas</router-link>
+    <router-link to="/cliente">Clientes</router-link>
   </Menu>
   <router-view />
 </template>

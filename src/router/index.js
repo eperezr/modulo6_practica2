@@ -1,11 +1,18 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import ClienteView from '../views/cliente/ClienteView.vue'
 
 const routes = [
   {
     path: '/',
     name: 'home',
     component: HomeView
+  },
+  {
+    path: '/cliente',
+    name: 'cliente',
+    component: ClienteView
+    //meta: { requiresAuth: true, role: ['admin','secretaria','veterinario'] } 
   },
   {
     path: '/about',
