@@ -4,7 +4,7 @@ import router from './router'
 import store from './store'
 import toasts from './toasts.js';
 
-//import './assets/styles/styles.scss'
+import './assets/styles/styles.scss'
 
 // Importaciones axios
 import axios from 'axios'
