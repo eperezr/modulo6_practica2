@@ -64,96 +64,86 @@
       "nombre": "prueba1",
       "telefono": "555123456",
       "direccion": "prueba123",
-      "id": "mdQYs7k"
+      "id": "mdQYs7k",
+      "equipo": []
     }
   ],
-  "equipo": [
+  "tickeds": [
     {
       "id": "1",
-      "nombre": "Fido",
-      "categoria": "Perro",
-      "sistema": "Labrador",
-      "empleo": "5",
+      "solicitud": "Falla de monitos",
+      "sistema": "linux",
+      "marca": "Asus",
       "clienteId": "1"
     },
     {
       "id": "2",
-      "nombre": "Whiskers",
-      "categoria": "Gato",
-      "sistema": "Siamés",
-      "empleo": "3",
+      "solicitud": "No enciende",
+      "sistema": "windows",
+      "marca": "Dell",
       "clienteId": "1"
     },
     {
       "id": "3",
-      "nombre": "Rex",
-      "categoria": "Perro",
-      "sistema": "Pastor Alemán",
-      "empleo": "7",
+      "solicitud": "No enciende",
+      "sistema": "linux",
+      "marca": "Asus",
       "clienteId": "2"
     },
     {
       "id": "4",
-      "nombre": "Buddy",
-      "categoria": "Perro",
-      "sistema": "Beagle",
-      "empleo": "4",
+      "solicitud": "No funciona mouse",
+      "sistema": "windows",
+      "marca": "Reddragon",
       "clienteId": "3"
     },
     {
       "id": "5",
-      "nombre": "Max",
-      "categoria": "Perro",
-      "sistema": "Bulldog",
-      "empleo": "6",
+      "solicitud": "No enciende",
+      "sistema": "linux",
+      "marca": "Dell",
       "clienteId": "4"
     },
     {
       "id": "6",
-      "nombre": "Bella",
-      "categoria": "Gato",
-      "sistema": "Persa",
-      "empleo": "2",
+      "solicitud": "Pantalla azul",
+      "sistema": "windows",
+      "marca": "HP",
       "clienteId": "5"
     },
     {
       "id": "7",
-      "nombre": "Luna",
-      "categoria": "Gato",
-      "sistema": "Maine Coon",
-      "empleo": "3",
+      "solicitud": "Pantalla rota",
+      "sistema": "windows",
+      "marca": "HP",
       "clienteId": "6"
     },
     {
       "id": "8",
-      "nombre": "Rocky",
-      "categoria": "Perro",
-      "sistema": "Boxer",
-      "empleo": "4",
+      "solicitud": "Camara no enciende",
+      "sistema": "linux",
+      "marca": "Logitech",
       "clienteId": "7"
     },
     {
       "id": "9",
-      "nombre": "Charlie",
-      "categoria": "Perro",
-      "sistema": "Poodle",
-      "empleo": "5",
+      "solicitud": "No enciende",
+      "sistema": "linux",
+      "marca": "Dell",
       "clienteId": "8"
     },
     {
       "id": "10",
-      "nombre": "Lucy",
-      "categoria": "Gato",
-      "sistema": "Siberiano",
-      "empleo": "1",
+      "solicitud": "Sin internet",
+      "sistema": "windows",
+      "marca": "AsRock",
       "clienteId": "9"
     },
     {
       "id": "11",
-      "nombre": "Simba",
-      "categoria": "Perro",
-      "sistema": "Golden Retriever",
-      "empleo": "6",
+      "solicitud": "No enciende",
+      "sistema": "linux",
+      "marca": "Dell",
       "clienteId": "10"
     }
   ],
@@ -161,7 +151,7 @@
     {
       "id": "1",
       "nombre": "Ing. María López",
-      "especialidad": "Configuración Stream",
+      "especialidad": "Configuración General",
       "telefono": "555-8765"
     },
     {
@@ -185,7 +175,7 @@
     {
       "id": "5",
       "nombre": "Ing. Laura Díaz",
-      "especialidad": "Laptops",
+      "especialidad": "Perifericos",
       "telefono": "555-2345"
     }
   ],
@@ -193,34 +183,34 @@
     {
       "id": "1",
       "clienteId": "1",
-      "equipoId": "1",
+      "tickedId": "1",
       "tecnicoId": "1",
       "fecha": "2024-08-01",
       "hora": "10:00",
-      "motivo": "Chequeo general"
+      "motivo": "Mantenimiento General"
     },
     {
       "id": "2",
       "clienteId": "2",
-      "equipoId": "3",
+      "tickedId": "3",
       "tecnicoId": "2",
       "fecha": "2024-08-02",
       "hora": "14:00",
-      "motivo": "Revisión dermatológica"
+      "motivo": "Mantenimiento especializado"
     },
     {
       "id": "3",
       "clienteId": "3",
-      "equipoId": "4",
+      "tickedId": "4",
       "tecnicoId": "3",
       "fecha": "2024-08-03",
       "hora": "11:00",
-      "motivo": "Vacunación"
+      "motivo": "Mantenimiento General"
     },
     {
       "id": "4",
       "clienteId": "4",
-      "equipoId": "5",
+      "tickedId": "5",
       "tecnicoId": "4",
       "fecha": "2024-08-04",
       "hora": "12:00",
@@ -229,150 +219,150 @@
     {
       "id": "5",
       "clienteId": "5",
-      "equipoId": "6",
+      "tickedId": "6",
       "tecnicoId": "5",
       "fecha": "2024-08-05",
       "hora": "09:00",
-      "motivo": "Revisión cardiológica"
+      "motivo": "Verificacion del equipo"
     },
     {
       "id": "6",
       "clienteId": "6",
-      "equipoId": "7",
+      "tickedId": "7",
       "tecnicoId": "1",
       "fecha": "2024-08-06",
       "hora": "10:30",
-      "motivo": "Chequeo general"
+      "motivo": "Verificacion del equipo"
     },
     {
       "id": "7",
       "clienteId": "7",
-      "equipoId": "8",
+      "tickedId": "8",
       "tecnicoId": "2",
       "fecha": "2024-08-07",
       "hora": "11:30",
-      "motivo": "Chequeo dermatológico"
+      "motivo": "Actualizacion"
     },
     {
       "id": "8",
       "clienteId": "8",
-      "equipoId": "9",
+      "tickedId": "9",
       "tecnicoId": "3",
       "fecha": "2024-08-08",
       "hora": "13:00",
-      "motivo": "Chequeo general"
+      "motivo": "Mantenimiento General"
     },
     {
       "id": "9",
       "clienteId": "9",
-      "equipoId": "10",
+      "tickedId": "10",
       "tecnicoId": "4",
       "fecha": "2024-08-09",
       "hora": "14:30",
-      "motivo": "Chequeo general"
+      "motivo": "Actualizacion"
     },
     {
       "id": "10",
       "clienteId": "10",
-      "equipoId": "11",
+      "tickedId": "11",
       "tecnicoId": "5",
       "fecha": "2024-08-10",
       "hora": "09:30",
-      "motivo": "Chequeo cardiológico"
+      "motivo": "Mantenimiento General"
     }
   ],
-  "pieza": [
+  "soporte": [
     {
       "id": "1",
-      "nombre": "Vacuna A",
-      "descripcion": "Descripción de la Vacuna A"
+      "nombre": "Plan de accion 1",
+      "descripcion": "Descripción del plan de accion 1"
     },
     {
       "id": "2",
-      "nombre": "Vacuna B",
-      "descripcion": "Descripción de la Vacuna B"
+      "nombre": "Plan de accion 2",
+      "descripcion": "Descripción del plan de accion 2"
     },
     {
       "id": "3",
-      "nombre": "Vacuna C",
-      "descripcion": "Descripción de la Vacuna C"
+      "nombre": "Plan de accion 3",
+      "descripcion": "Descripción del plan de accion 3"
     },
     {
       "id": "4",
-      "nombre": "Vacuna D",
-      "descripcion": "Descripción de la Vacuna D"
+      "nombre": "Plan de accion 4",
+      "descripcion": "Descripción del plan de accion 4"
     },
     {
       "id": "5",
-      "nombre": "Vacuna E",
-      "descripcion": "Descripción de la Vacuna E"
+      "nombre": "Plan de accion 5",
+      "descripcion": "Descripción del plan de accion 5"
     }
   ],
-  "equipoReparado": [
+  "tickedsSoporte": [
     {
       "id": "1",
-      "equipoId": "1",
-      "piezaId": "1",
+      "tickedId": "1",
+      "soporteId": "1",
       "fecha": "2024-06-01"
     },
     {
       "id": "2",
-      "equipoId": "1",
-      "piezaId": "2",
+      "tickedId": "1",
+      "soporteId": "2",
       "fecha": "2024-07-01"
     },
     {
       "id": "3",
-      "equipoId": "2",
-      "piezaId": "1",
+      "tickedId": "2",
+      "soporteId": "1",
       "fecha": "2024-07-15"
     },
     {
       "id": "4",
-      "equipoId": "3",
-      "piezaId": "3",
+      "tickedId": "3",
+      "soporteId": "3",
       "fecha": "2024-08-01"
     },
     {
       "id": "5",
-      "equipoId": "4",
-      "piezaId": "4",
+      "tickedId": "4",
+      "soporteId": "4",
       "fecha": "2024-08-02"
     },
     {
       "id": "6",
-      "equipoId": "5",
-      "piezaId": "5",
+      "tickedId": "5",
+      "soporteId": "5",
       "fecha": "2024-08-03"
     },
     {
       "id": "7",
-      "equipoId": "6",
-      "piezaId": "1",
+      "tickedId": "6",
+      "soporteId": "1",
       "fecha": "2024-08-04"
     },
     {
       "id": "8",
-      "equipoId": "7",
-      "piezaId": "2",
+      "tickedId": "7",
+      "soporteId": "2",
       "fecha": "2024-08-05"
     },
     {
       "id": "9",
-      "equipoId": "8",
-      "piezaId": "3",
+      "tickedId": "8",
+      "soporteId": "3",
       "fecha": "2024-08-06"
     },
     {
       "id": "10",
-      "equipoId": "9",
-      "piezaId": "4",
+      "tickedId": "9",
+      "soporteId": "4",
       "fecha": "2024-08-07"
     },
     {
       "id": "11",
-      "equipoId": "10",
-      "piezaId": "5",
+      "tickedId": "10",
+      "soporteId": "5",
       "fecha": "2024-08-08"
     }
   ],

@@ -1,3 +1,4 @@
+
 import { createApp } from 'vue';
 import ToastsManager from './components/ToastsManager.vue';
 
