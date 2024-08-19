@@ -22,25 +22,25 @@ const routes = [
     path: '/cliente',
     name: 'cliente',
     component: ClienteView,
-    meta: { requiresAuth: true, role: ['admin','secretaria','tecnico'] } 
+    meta: { requiresAuth: true, role: ['gerente','secretaria','tecnico'] } 
   },
   {
     path: '/cita',
     name: 'cita',
     component: CitaView,
-    meta: { requiresAuth: true, role: ['admin','secretaria'] } 
+    meta: { requiresAuth: true, role: ['gerente','secretaria'] } 
   },
   {
     path: '/ticked',
     name: 'ticked',
     component: TickedView,
-    meta: { requiresAuth: true, role: ['admin','tecnico'] } 
+    meta: { requiresAuth: true, role: ['gerente','tecnico'] } 
   },
   {
     path: '/ticked/:id/soporte',
     name: 'tickedSoporte',
     component: reporteSoporteView,
-    meta: { requiresAuth: true, role: ['admin','tecnico'] } 
+    meta: { requiresAuth: true, role: ['gerente','tecnico'] } 
   },
   {
     path: '/about',

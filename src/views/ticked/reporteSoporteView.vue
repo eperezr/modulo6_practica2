@@ -91,7 +91,7 @@
     },
     mounted(){
       this.getTicked();
-      this.getsoporte();
+      this.getSoporte();
     }
   };
   </script>

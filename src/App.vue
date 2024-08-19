@@ -2,9 +2,9 @@
   <Menu>
     <router-link to="/">Home</router-link>
     <router-link to="/about">About</router-link>
-    <router-link to="/cliente" v-if="canSee(['admin','secretaria','tecnico'])">Clientes</router-link>
-    <router-link to="/ticked" v-if="canSee(['admin','tecnico'])">Ticked</router-link>
-    <router-link to="/cita" v-if="canSee(['admin','secretaria'])">Citas</router-link>
+    <router-link to="/cliente" v-if="canSee(['gerente','secretaria','tecnico'])">Clientes</router-link>
+    <router-link to="/ticked" v-if="canSee(['gerente','tecnico'])">Ticked</router-link>
+    <router-link to="/cita" v-if="canSee(['gerente','secretaria'])">Citas</router-link>
   </Menu>
   <router-view />
 </template>
